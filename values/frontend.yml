@@ -1,0 +1,6 @@
+appName: frontend
+replicas: 2
+appPort: 80
+serviceType: LoadBalancer
+config_values:
+{{- toYaml .Values.config_values | nindent 2 }}
