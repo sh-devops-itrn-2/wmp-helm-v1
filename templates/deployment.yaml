@@ -1,5 +1,5 @@
 apiVersion: apps/v1
-kind: {{ .Values.appName }}
+kind: Deployment
 metadata:
   name: {{ .Values.appName }}
   labels:
